@@ -48,7 +48,7 @@ def create_random_number():
 
             if num_input1 < num_input2:
                 get_random_number = random.randint(num_input1,num_input2)
-                print(get_random_number)
+                print(f'optional random number: {get_random_number}') 
                 select_user = get_user_input(num_input1 , num_input2 , get_random_number)
                 return select_user
                 
