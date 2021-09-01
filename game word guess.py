@@ -57,4 +57,4 @@ def run_game(number_of_guess , names):
 
 list_name = ['james' , 'john' , 'jennifer' , 'elizabeth' , 'linda' , 'david' , 'richard']
 clear_screen()
-run_game(3 , list_name)
+run_game(5 , list_name)
